@@ -5,7 +5,7 @@ import customer.CustomerBasicImpl;
 import vehicle.VehicleBasicImpl;
 import vehicle.Vehicle;
 
-public class BasicFactoryImpl implements AbstractFactoryBasic {
+public class BasicFactoryImpl implements AbstractFactory {
     @Override
     public Customer createCustomer() {
         return new CustomerBasicImpl();

@@ -3,7 +3,7 @@ package factories;
 import customer.Customer;
 import vehicle.Vehicle;
 
-public interface AbstractFactoryVip {
+public interface AbstractFactory {
     Customer createCustomer();
     Vehicle createVehicle();
 }
