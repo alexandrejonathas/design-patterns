@@ -2,7 +2,7 @@ package factories;
 
 import customer.Customer;
 import customer.CustomerBasicImpl;
-import vehicle.BasicVehicleImpl;
+import vehicle.VehicleBasicImpl;
 import vehicle.Vehicle;
 
 public class BasicFactoryImpl implements AbstractFactoryBasic {
@@ -13,6 +13,6 @@ public class BasicFactoryImpl implements AbstractFactoryBasic {
 
     @Override
     public Vehicle createVehicle() {
-        return new BasicVehicleImpl();
+        return new VehicleBasicImpl();
     }
 }

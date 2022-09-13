@@ -2,7 +2,7 @@ package factories;
 
 import customer.Customer;
 import customer.CustomerVipImpl;
-import vehicle.LuxVehicleImpl;
+import vehicle.VehicleVipImpl;
 import vehicle.Vehicle;
 
 public class VipFactoryImpl implements AbstractFactoryVip {
@@ -13,6 +13,6 @@ public class VipFactoryImpl implements AbstractFactoryVip {
 
     @Override
     public Vehicle createVehicle() {
-        return new LuxVehicleImpl();
+        return new VehicleVipImpl();
     }
 }
