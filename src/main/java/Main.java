@@ -1,5 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world");
+        var vipFactory = new VipFactoryImpl();
+        var customer = vipFactory.createCustomer();
+        var vehicle = vipFactory.createVehicle();
+
+        customer.printTypeCustomer();
+        vehicle.printTypeVehicle();
     }
 }
