@@ -2,6 +2,6 @@ package adapter;
 
 import person.Person;
 
-public interface JsonToPerson {
+public interface PersonConverter {
     Person convert(String json);
 }
